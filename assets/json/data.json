@@ -1,0 +1,37 @@
+{
+    "ogrenciler":[
+    {
+        "adiSoyadi":"büşra ordu",
+        "dogumYili": "2000"
+    },
+    {
+        "adiSoyadi":"berke keskin",
+        "dogumYili": "1999"
+    },
+    {
+        "adiSoyadi":"zehra ecer",
+        "dogumYili": "1996"
+    },
+    {
+        "adiSoyadi":"ömer esim",
+        "dogumYili": "2000"
+    },
+    {
+        "adiSoyadi":"burak öz",
+        "dogumYili": "2002"
+    },
+    {
+        "adiSoyadi":"serhat koç",
+        "dogumYili": "1998"
+    }
+],
+"egitmenler":[
+    {
+        "adiSoyadi":"furkan ozay",
+        "dogumYili": "1999"
+    },
+    {
+        "adiSoyadi":"begum irci",
+        "dogumYili": "1998"
+    }
+]}
