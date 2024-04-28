@@ -59,6 +59,7 @@ yas: date.getFullYear() - ogrenci.dogumYili
 
 async function init(){
     const data = await getData();
+    
     const bigStudents = data.ogrenciler.filter(ogrenci => ogrenci.yas > 22)
     const smallStudents = data.ogrenciler.filter(ogrenci => ogrenci.yas <22)
     
