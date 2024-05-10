@@ -35,6 +35,8 @@ cikartBtn.addEventListener("click", (e) => {
     
 })
 
+hesapla();
+
 // function hesapla(a,b){
 //     const topla = a+b;
 //     const cikart = a-b;
