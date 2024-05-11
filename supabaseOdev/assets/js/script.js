@@ -5,6 +5,7 @@ const _supabase = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
 console.log(_supabase);
 
 const ogrenciler= document.querySelector("#ogrenciler")
+const List= document.querySelector(".sirala")
 
 
 ogrenciler.addEventListener("submit",async function(e) {
@@ -23,7 +24,6 @@ ogrenciler.addEventListener("submit",async function(e) {
     ])
     .select()
     console.log('Kayıt başarılı:', data);
-
 }
 catch{
     console.error('Kayıt hatası:', error.message);
